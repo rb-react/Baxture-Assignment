@@ -177,6 +177,7 @@ const Info: React.FC = () => {
                 &nbsp;
                 <Link
                   href={`tel:${user.phone}`}
+                  target="_blank"
                   style={{
                     textDecoration: "none",
                     color: "#868eb1",
