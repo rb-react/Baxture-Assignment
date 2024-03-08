@@ -1,0 +1,54 @@
+.body {
+  height: 2000px;
+}
+
+.userCard {
+  width: 100%;
+}
+
+.card {
+  height: 336px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 10px;
+  --paper-shadow: var(--mantine-shadow-xl);
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
+
+.nameCircle {
+  border-radius: 100%;
+}
+
+.text {
+  margin-bottom: 2px;
+}
+
+.text:hover {
+  text-decoration: underline 2px solid;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-around;
+}
+.buttonOuter {
+  width: 48%;
+}
+
+.deleteButton {
+  width: 100%;
+  border: 1px solid #228be6;
+  color: #228be6;
+  background-color: white;
+}
+.hoverCard {
+  background-color: black;
+}
+.hoverText {
+  color: white;
+}

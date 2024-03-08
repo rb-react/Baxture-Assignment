@@ -1,0 +1,24 @@
+#toggle_close {
+  width: 100%;
+  border: 1px solid #228be6;
+  border-radius: 5px;
+  padding: 4px 0;
+  color: white;
+  background-color: light-dark(
+    var(--mantine-color-blue-5),
+    var(--mantine-color-dark-0) var(--mantine-color-blue-outline)
+  );
+}
+
+#toggle_open {
+  width: 100%;
+  border: 1px solid #228be6;
+  border-radius: 5px;
+  padding: 4px 0;
+  color: black;
+  background-color: light-dark(
+    var(--mantine-color-gray-1),
+    var(--mantine-color-dark-0) var(--mantine-color-blue-outline)
+  );
+}
+
