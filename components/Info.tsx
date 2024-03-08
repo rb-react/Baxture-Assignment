@@ -215,15 +215,16 @@ const Info: React.FC = () => {
               </span>
               <span style={{ fontSize: "16px" }}>
                 &nbsp;
-                <Link
-                  href={`https://${user.website}`}
+                <a
+                  href={`http://${user.website}`}
+                  target="_blank"
                   style={{
                     textDecoration: "none",
                     color: "#868eb1",
                   }}
                 >
                   {user.website}
-                </Link>
+                </a>
               </span>
             </Text>
 
