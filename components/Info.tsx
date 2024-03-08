@@ -79,7 +79,11 @@ const Info: React.FC = () => {
                   position="top"
                   offset={{ mainAxis: 3, crossAxis: -4 }}
                 >
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={`http://${user.website}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Avatar
                       className={classes.nameCircle}
                       src={`https://api.dicebear.com/7.x/initials/svg?seed=${user.name}`}
